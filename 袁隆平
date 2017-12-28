@@ -1,0 +1,42 @@
+<head>
+    <script>
+     window.console = window.console || function(t) {};
+    </script>
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+                    }
+    </script>
+    <style>
+    body {
+     margin-top: 60px;
+                  }
+    </style>
+                  
+    <meta charset="UTF-8">
+    <title>Dr.Longping Yuan</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+</head>
+<body>
+    <div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">袁隆平</h1>
+                <h2 class="text-center"><em>杂交水稻之父</em></h2>
+                <div class="thumbnail"><img src="Yuan_Longping_in_1962.jpg"></div>
+        </div>   
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2"> 
+            <h3>袁隆平生平简介</h3>
+            <ul>
+                <li><strong>1949</strong>考入了重庆相辉学院农学系，主修遗传育种学[7]，院系调整，并入重庆新建的西南农学院农学系</li>
+                <li><strong>1953</strong>结束了大学学习生活，到湖南省怀化地区的安江农校任教。</li>
+                <li><strong>1960</strong>他在农校试验田中意外发现一株特殊性状的水稻。惊喜之际，他利用该株水稻试种，发现其子代有不同性质。因为水稻是自花授粉的，不会出现性状分离，所以他推论该为天然杂交水稻。随后他把雌雄同蕊的水稻雄花人工去除，授以另一个品种的花粉，尝试产生杂交品种。1964年7月5日，他在试验稻田中找到一株“天然雄性不育株”，经人工授粉，结出了数百粒第一代雄性不育株种子。</li>
+                <li><strong>1965</strong>他又在14000多个稻穗中逐穗检查到6株不育株，并在此后两年播种中，共有4株成功繁殖了1～2代。其研究彻底推翻由传统经典理论米丘林、李森科的“无性杂交”学说，并推论水稻亦有杂交优势。通过培育雄性不育系、雄性不育保持系和雄性不育恢复系的三系法途径来培育杂交水稻，可以大幅度提高水稻产量。</li>
+                <li><strong>1966</strong>三系杂交水稻的发现以《水稻的雄性不孕性》发表在中国科学院的《科学通报》上，是他的第一篇重要论文，而这一刊《科学通报》却是文革前的最后一刊。文化大革命冲击了袁隆平的研究，其实验稻田育种甚至被人恶意破坏拔除，但其仍坚持试验。为了增加试验效果，每年冬天，其与助手还去海南三亚进行水稻育种，甚至在路上把种子绑在身上，利用体温育种催芽。然而研究遇到瓶颈，逾三千次试验都未成功。</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
